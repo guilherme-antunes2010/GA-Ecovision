@@ -117,6 +117,7 @@ header {
 #ideias{
     background-color: #00a108;
     text-align: center;
+    align-items: center;
     padding: 40px;
     margin-top: 8%;
     border-bottom: 8px solid #c4c4c4;
@@ -241,7 +242,87 @@ a .legenda{
 
 /* duvidas */
 
+#duvidas{
+    text-align: center;
+    padding:0 40px;
+}
 
-.rs-icons p {
+#duvidas h2,#duvidas h3,#duvidas h1{
     color: #00a108;
+}
+
+.rs-leg{
+    padding: 0 70px;
+}
+
+.empresas-leg{
+    padding: 0 110px;
+}
+
+#duvidas span {
+    font-weight: 600;
+}
+
+.lixos-icons,.rs-icons,.empresas-icons{
+    font-size: 80px;
+}
+
+.rs-icons{
+    color: #00a1a1 ;
+}
+
+.empresas-icons{
+    color: #0099ff;
+}
+
+#duvidas h1{
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+/* footer  */
+
+footer{
+    border-top: 4px solid #c4c4c4;
+    margin-top: 70px;
+    padding: 25px;
+    background-color: #00a108;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.left-footer nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.left-footer i{
+    color: #ffffff;
+    font-size: 30px;
+    margin:0 9px;
+    
+}
+
+footer h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+footer h4{
+    font-size: 15px;
+}
+
+.left-footer i:hover{
+    color: #027005;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.right-footer h4{
+    padding: 5px;
 }
