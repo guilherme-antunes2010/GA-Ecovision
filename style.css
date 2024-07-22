@@ -326,3 +326,25 @@ footer h4{
 .right-footer h4{
     padding: 5px;
 }
+
+/* news  */
+
+.noticia{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 70px ;
+}
+
+.header-noticia h1{
+    font-size: 40px;
+}
+
+
+.subtitle-underline-news{
+    width: 70%;
+    height: 2px;
+    background: #00a108;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
