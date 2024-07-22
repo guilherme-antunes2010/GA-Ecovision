@@ -1,0 +1,247 @@
+/* geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f0f0;
+}
+
+::-webkit-scrollbar{
+    background-color: #00a108;
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #027005;
+    width: 10px;
+    border-radius: 9999px;
+}
+
+/* header */
+
+header {
+    background-color: #00a108;
+}
+
+
+
+.menu{
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 10px solid #c4c4c4;
+}
+
+.menu img{
+    width:50%;
+    padding: 0;
+    cursor: pointer;
+}
+
+.menu a i{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.menu a i:hover{
+    color: #027005;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+/* icones */
+
+.icons a {
+    font-size: 30px;
+    color:#ffffff;
+    border:3px solid #027005;
+    background-color: #00a108;
+    padding: 13px 20px;
+    border-radius: 9999px;
+}
+
+.icons a:hover{
+    color: #027005;
+    transition: all 0.4s;
+}
+
+.icons ul li a i:hover{
+    cursor: pointer;
+}
+
+.icons ul li a:hover{
+    cursor: pointer;
+}
+
+.icons  ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 70px 20px;
+}
+
+.icons{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* geral */
+
+#geral {
+    text-align: center;
+    padding: 0 40px;
+}
+
+#geral h2 {
+    color:#00a108;
+}
+
+/* ideias */
+
+.cols {
+    display: grid;
+    flex-direction: column;
+}
+
+.cols-3{
+    grid-template-columns: repeat(3,1fr);
+}
+
+#ideias{
+    background-color: #00a108;
+    text-align: center;
+    padding: 40px;
+    margin-top: 8%;
+    border-bottom: 8px solid #c4c4c4;
+}
+
+#ideias img {
+    margin-top: 40px ;
+    width: 80%;
+}
+
+#ideias h2, #ideias h1 {
+    color: #ffffff;
+}
+
+#ideias a{
+    text-decoration: none;
+}
+
+#ideias h2:hover{
+    color: #027005;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#ideias img:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: all 0.8s;
+}
+
+/* noticias */
+
+#noticias h1{
+    text-align: center;
+    margin-top:5%;
+}
+
+.subtitle-underline{
+    width: 90%;
+    height: 2px;
+    background: #00a108;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+
+.news1 a{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+
+.news2 a{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+
+.news3 a{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+
+.news4 a{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+
+.news5 a{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+
+a .legenda{
+    height: 100%;
+    flex-basis: 50%;
+    color: #027005;
+    cursor: pointer;
+}
+
+#noticias a{
+    text-decoration: none;
+}
+
+.noticia-img{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticia-img img {
+    width: 60%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.legenda .infos {
+    font-size: 0.8rem;
+}
+
+.legenda h2, .legenda p {
+    cursor: pointer;
+}
+
+.legenda h2:hover{
+    color: #03d60d;
+    transition: all 0.8s;
+}
+
+.legenda p:hover{
+    color: #03d60d;
+    transition: all 0.8s;
+}
+
+/* duvidas */
+
+
+.rs-icons p {
+    color: #00a108;
+}
